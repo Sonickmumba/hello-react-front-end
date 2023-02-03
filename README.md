@@ -1,70 +1,297 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-## Available Scripts
+Modify this file to match your project and remove sections that don't apply.
 
-In the project directory, you can run:
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-### `npm start`
+After you're finished please remove all the comments and instructions!
+-->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- <div align="center"> -->
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <!-- <img src="murple_logo.png" alt="logo" width="140"  height="auto" /> -->
+  <!-- <br/> -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+  <!-- <h3><b>Microverse README Template</b></h3> -->
 
-### `npm test`
+<!-- </div> -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TABLE OF CONTENTS -->
 
-### `npm run build`
+# 📗 Table of Contents
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- PROJECT DESCRIPTION -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 📖 Hello React Front-End <a name="about-project"></a>
 
-### `npm run eject`
+**Hello React Front-End** is about setting up "Hello world" project as one app with Webpack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🛠 Built With <a name="built-with"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Tech Stack <a name="tech-stack"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+  <summary>Languages</summary>
+  <ul>
+    <!-- <li><a href="https://reactjs.org/">Ruby</a></li> -->
+    <li><a href="https://www.javacript.com/">Javascript</a></li>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html/">CSS</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html/">React</a></li>
+  </ul>
+</details>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- <details>
+  <summary>Frameworks</summary>
+  <ul>
+    <li><a href="https://rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</details> -->
 
-## Learn More
+<!-- <details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Puma</a></li>
+  </ul>
+</details> -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- <details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details> -->
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<!-- <details>
+<summary>Testing library</summary>
+  <ul>
+<li> RSpec </li>  
+  </ul>
+</details> -->
 
-### Code Splitting
+<!-- Features -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Key Features <a name="key-features"></a>
 
-### Analyzing the Bundle Size
+<!-- > Describe between 1-3 key features of the application. -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- **[Implement a connection between a Ruby on Rails back-end and React front-end.]**
+- **[Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.]**
+<!-- - **[Create an API endpoint]** -->
+<!-- - **[A registration page]** -->
+<!-- - **[A Category page (with all CRUD implementation, except for 'update')]** -->
+<!-- - **[A Transactions page (with all CRUD implementation, except for 'update')]** -->
+<!-- - **[Add Transactions page)]** -->
+<!-- - **[Add Category page]** -->
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<!-- LIVE DEMO -->
 
-### Advanced Configuration
+## 🚀 Live video <a name="live-video"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<!-- - [Live video Link](https://drive.google.com/file/d/1KQV8G0I9ADZehqmSqIhIed0g705Ji97L/view?usp=sharing) -->
+- Comming soon
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+<!-- > Node.js
+    run `npm install` -->
+<!-- > Database : **PostgreSQL** -->
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  cd my-folder
+  git clone git@github.com:Sonickmumba/hello-react-front-end.git
+```
+-
+
+### Install
+
+Install this project with:
+
+<!-- Example command: -->
+
+```
+  cd hello-react-front-end
+  npm install
+```
+-
+
+### Usage
+
+To run the project, execute the following command:
+
+<!-- Example command: -->
+
+```sh
+  npm start
+```
+-
+
+<!-- ### Run tests
+
+<!-- To run tests, run the following command: -->
+<!-- The app is tested using Rspec library you can check the tests by opening your terminal, then change the directory to the location of this repo using this command `cd file_path`, then run this command `gem install rspec`, finally run this command `rspec spec` or `rspec spec --format doc` for documented test results you should see a screen like that comming soon --> -->
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+You can deploy this project using:
 
-### `npm run build` fails to minify
+## 🚀 Live Demo <a name="live-demo"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- - [Live Demo Link](https://tranquil-waters-02647.herokuapp.com) -->
+- Comming soon
+
+<!--
+Example:
+
+```sh
+
+```
+ -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Sonick Mumba**
+
+- GitHub: [@Sonickmumba](https://github.com/Sonickmumba)
+- Twitter: [@Sonick](https://twitter.com/MumbaSonick)
+- LinkedIn: [Sonick Mumba](https://linkedin.com/in/sonickmumba)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+<!-- > Describe 1 - 3 features you will add to the project. -->
+
+- [ ] **[Add more css styles.]**
+<!-- - [ ] **[.]** -->
+<!-- - [ ] **[implement some UX improvements: include transitions and/or animations, etc]** -->
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Sonickmumba/Budget-app/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+<!-- > Write a message to encourage readers to support your project -->
+
+If you like this project it a thumb up : 👍 and share this projects with your friends
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+<!-- > Give credit to everyone who inspired your codebase. -->
+
+I would like to thank...
+<!-- - [Gregoire Vella on Behance](https://www.behance.net/gregoirevella) for the design. -->
+- **Microverse** for giving the opportunity to learn
+- Code reviewers and coding partners
+- Hat tip to anyone whose code was used
+- Inspiration
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+<!-- ## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[Question_1]**
+
+  - [Answer_1]
+
+- **[Question_2]**
+
+  - [Answer_2] -->
+
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](MIT.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
