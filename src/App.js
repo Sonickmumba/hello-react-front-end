@@ -6,13 +6,14 @@ import Greeting from './components/Greeting';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">Greetings Page</header>
-      <Routes>
-        <Route
-          path="/"
-          element={<Greeting />}
-        />
-      </Routes>
+      <header className="App-header">
+        <Routes>
+          <Route
+            path="/"
+            element={<Greeting />}
+          />
+        </Routes>
+      </header>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // api
-export const api = 'http://127.0.0.1:3000/api/v1/messages';
+const api = 'http://127.0.0.1:3000/api/v1/messages';
 
 // Actions
 const FETCH_GREETINGS = 'FETCH_GREETINGS';
@@ -19,9 +19,14 @@ export const GreetingsAction = (payload) => ({
 
 // Fetch Greetings from api
 export const fetchGreetingsAsync = () => async (dispatch) => {
-  const response = await axios.get(api);
-  const data = await response.data;
-  dispatch(GreetingsAction(data[0]));
+  try {
+    const response = await axios.get(api);
+    const data = await response.data;
+    console.log(data);
+    dispatch(GreetingsAction(data[0]));
+  } catch (err) {
+    console.log(err);
+  }
 };
 
 // Reducer

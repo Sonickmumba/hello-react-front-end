@@ -5,7 +5,7 @@ import { fetchGreetingsAsync } from '../redux/greetingsRedux/greetings';
 const Greeting = () => {
   const data = useSelector((state) => state.greetings);
   const dispatch = useDispatch();
-  // console.log(data);
+  console.log(data);
   useEffect(() => {
     dispatch(fetchGreetingsAsync());
   }, [dispatch]);
